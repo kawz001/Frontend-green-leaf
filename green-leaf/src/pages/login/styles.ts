@@ -5,26 +5,32 @@ export const style = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-    },
-    boxTop: {
-        height: Dimensions.get('window').height/3,
-        width: '100%',
-        backgroundColor: 'red',
-        alignItems: 'center',
-        justifyContent: 'center'
+        backgroundColor: 'black'
     },
     boxMid: {
-        height: Dimensions.get('window').height/4,
-        width: '100%',
-        backgroundColor: 'red'
-    },
-    boxBottom: {
         height: Dimensions.get('window').height/3,
         width: '100%',
-        backgroundColor: 'red'
+        backgroundColor: '#DDDDDD',
+        borderRadius: 30
     },
     imageBox: {
         height: 100,
         width: 100
+    },
+    form: {
+        flex: 1,
+        justifyContent: 'center',
+        padding: 30
+    },
+    input: {
+        backgroundColor: '#ffffff',
+        borderRadius: 10,
+        paddingStart: 10,
+        marginBottom: 10,
+    },
+    options: {
+        flex:1,
+        flexDirection: 'row',
+        justifyContent: 'space-between'
     }
 })
